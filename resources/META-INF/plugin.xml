@@ -1,0 +1,33 @@
+<idea-plugin>
+  <id>net.chenzi.plugin.ide-web-browser</id>
+  <name>IDE Web Browser</name>
+  <version>1.0</version>
+  <vendor email="wenj_2011@hotmail.com" url="http://blog.chenzi.net">Chenzi</vendor>
+
+  <description><![CDATA[
+      For browsing web pages support for IntelliJ products.
+    ]]></description>
+
+  <!-- Change Log-->
+  <change-notes><![CDATA[
+    ]]>
+  </change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="145.0"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <!-- uncomment to enable plugin in all products
+  <depends>com.intellij.modules.lang</depends>
+  -->
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+
+</idea-plugin>
